@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	overflow: hidden;
+}
+
+header a {
+	display: block;
+	width: 49.8%;
+	height: 45px;
+	color: #FFFFFF;
+	float: left;
+	background-color: #DD524D;
+	text-align: center;
+	line-height: 45px;
+}
+
+.b_r {
+	border-right: 1px solid #797979;
+}
+
+body {
+	background-color: #EFEFF4;
+}
+
+
+/*#main {
+	background-color: #EFEFF4;
+}*/
+
+section {
+	background-color: #EFEFF4;
+}
+
+section dl {
+	width: 100%;
+	margin-top: 3%;
+	/*height: 200px;*/
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+section dl dt {
+	line-height: 100px;
+	float: left;
+	margin: 0 3%;
+}
+
+section>dl>dd:first-of-type {
+	float: left;
+	width: 25%;
+}
+
+section>dl>dd:first-of-type>img {
+	width: 100%;
+	/*height: 95px;*/
+}
+
+section>dl>dd:last-of-type {
+	float: left;
+	width: 60%;
+	margin-left: 3%;
+}
+
+section>dl>dd:last-of-type>p {
+	margin-bottom: 2.28%;
+}
+
+section>dl>dd:last-of-type>p:nth-of-type(2) {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 90%;
+}
+
+section>dl>dd:last-of-type p:nth-of-type(3)>span:nth-of-type(1) {
+	float: left;
+	color: red;
+	font-weight: 900;
+}
+
+section>dl>dd:last-of-type p:nth-of-type(3)>span:last-of-type {
+	float: right;
+	width: 36%;
+	border: 1px solid #ccc;
+	/*border-radius: 5px;*/
+	margin-right: 5%;
+	background-color: #EFEFF4;
+}
+
+section>dl>dd:last-of-type p:nth-of-type(3)>span:last-of-type>a:nth-of-type(1) {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	border-right: 1px solid #ccc;
+	background-color: #fff;
+	color: #000000;
+}
+
+section>dl>dd:last-of-type p:nth-of-type(3)>span:last-of-type> span {
+	width: 37%;
+	display: inline-block;
+	text-align: center;
+}
+
+section>dl>dd:last-of-type p:nth-of-type(3)>span:last-of-type>a:nth-of-type(2) {
+	width: 25%;
+	text-align: center;
+	display: inline-block;
+	background-color: #fff;
+	color: #000000;
+}
+
+footer {
+	height: 60px;
+	line-height: 60px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+}
+
+footer>p {
+	float: left;
+}
+
+footer>p:first-of-type {
+	margin-left: 3%;
+}
+
+footer>p:last-of-type {
+	width: 53%;
+	text-align: right;
+	font-weight: 800;
+	margin-right: 4%;
+}
+
+footer>button {
+	color: #FFFFFF;
+	background-color: #DD524D;
+	width: 25%;
+	border: 1px solid #797979;
+	height: 40px;
+	border-radius: 8px;
+}
+
+#effect {
+	display: none;
+}
