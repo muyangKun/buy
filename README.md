@@ -24,8 +24,11 @@ WeUI 是微信官方设计团队为微信 Web 开发量身打造的一个 UI 样
 # 如何使用
 
 WeUI 官方 Github：https://github.com/weui/weui
+
 WeUI 官方 Demo：http://weui.github.io/weui
+
 WeUI 官方 Releases：https://github.com/weui/weui/releases
+
 WeUI 官方 Wiki：https://github.com/weui/weui/wik
 
 有需要的自己研究下很简单的
